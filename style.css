@@ -300,7 +300,7 @@
 
 
 .content {
-  min-height: calc(100vh - 200px); /* Ruimte voor de footer */
+  min-height: calc(100vh - 200px); 
 }
 
 /* Footer styling */
@@ -310,17 +310,16 @@
   padding: 20px 40px;
   align-items: center;
   justify-content: center;
-  
 }
 
 .footer-container {
-  max-width: 1200px; /* Limit the width */
-  margin: 0 auto; /* Center the container horizontally */
+  max-width: 1200px; 
+  margin: 0 auto; 
   display: flex;
-  justify-content: center; /* Center the inner content horizontally */
-  gap: 40px; /* Add space between columns */
-  flex-wrap: wrap; /* Allow wrapping for smaller screens */
-  text-align: center; /* Center-align text */
+  justify-content: center; 
+  gap: 40px; 
+  flex-wrap: wrap; 
+  text-align: left;
 }
 
 .footer-column {
